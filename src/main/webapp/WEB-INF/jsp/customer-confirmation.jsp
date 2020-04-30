@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,10 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello from JSP</h1>
-
-<a href="student/showForm">Student form</a>
-<br>
-<a href="customer/showForm">Customer form</a>
+The customer is confirmed: ${customer.firstName} ${customer.lastName}
 </body>
 </html>
